@@ -2,7 +2,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class India extends Application {
+class India extends CI_Controller {
 
     function __construct() {
         parent::__construct();
