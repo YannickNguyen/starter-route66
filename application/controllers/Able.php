@@ -1,4 +1,5 @@
 <?php
+
 defined('BASEPATH') OR exit('No direct script access allowed');
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -11,7 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  *
  * @author Yannick
  */
-class Able extends Application{
+class Able extends Application {
 
     public function index() {
         $this->show(1);
